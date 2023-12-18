@@ -4,11 +4,12 @@ const Hero = () => {
     return (
         <section className="hero-aria container min-h-[500px] flex flex-col justify-center">
             <div className="hero-info">
-                <h1 className='font-bold font-dmsans text-7xl text-[#10172b]'><span className='underline'>Nazmun</span> Sakib</h1>
-                <h2 className='font-bold font-dmsans text-6xl mt-2 text-[#333333]'>Make creative things for web!</h2>
-                <p className='max-w-2xl text-lg mt-5 text-[#707376] font-poppins'>I'm a software developer based in Dhaka, Bangladesh specializing in building exceptional websites, applications, plugins, and everything in between.</p>
+                <h1 className="bg-softy text-lg font-bold inline-block px-4 text-[#586c7a] mb-4">Hello! I’m</h1>
+                <h2 className='font-bold font-dmsans text-7xl text-primary'>Nazmun Sakib</h2>
+                <h3 className='font-bold font-dmsans text-5xl mt-2 text-secondary shadow-softy'>Build creative things for web!</h3>
+                <p className='max-w-2xl text-lg mt-5 font-poppins'>I m a software developer based in Dhaka, Bangladesh specializing in building exceptional websites, applications, plugins, and everything in between.</p>
                 <div className='hero-buttons'>
-                    <a href="#" className=''>Get resume</a>
+                    <a href="#" className="text-[15px] capitalize text-primary border-[1px] inline-block mt-7 rounded-sm px-7 py-2 hover:text-secondary transition-all duration-100">Get resume </a>
                 </div>
             </div>
         </section>

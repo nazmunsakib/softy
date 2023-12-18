@@ -9,7 +9,17 @@ export default {
       fontFamily: { 
         "dmsans": ['DM Sans', 'sans-serif'],
         "poppins": ['Poppins', 'sans-serif']
+      },
+      boxShadow: {
+        'softy': '0 0 0 0 #ffffff',
+      },
+      backgroundImage: {
+        'softy': 'linear-gradient(193deg, #313960 0%, #11152b 100%)',
       }
+    },
+    colors: {
+      primary: '#04e8b9',
+      secondary: '#73d9ff',
     },
     container: {
       center: true,
