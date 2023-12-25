@@ -1,0 +1,22 @@
+.site-header{
+    background-color: rgba(17, 21, 43, 0.9) ;
+    border-bottom: 1px solid #2e355a;
+}
+.site-footer{
+  background-color: rgba(17, 21, 43, 0.9) ;
+  border-top: 1px solid #2e355a;
+}
+.code-typed-cursor {
+  animation: typing 1.5s steps(30, end) forwards, blinking 1s infinite;
+}
+  
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blinking {
+  0% {color: transparent}
+  50% {color: #B0C8DB}
+  100% {color: transparent}
+}
