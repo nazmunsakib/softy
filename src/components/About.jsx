@@ -3,11 +3,11 @@ import myImage from'../assets/images/my-new.jpg';
 
 const About = () => {
     return (
-        <section className="about-me py-12">
+        <section className="about-me py-14">
             <div className="container">
                 <div className="about-content flex">
                     <div className="about-image-area w-1/3">
-                        <img className="filter shadow-softy2 grayscale hover:filter-none ease-out duration-700 rounded" src={myImage} width={400} height={500} alt="Nazmun Sakib" />
+                        <img className="filter shadow-softy2 grayscale hover:filter-none ease-out duration-700 rounded !z-0" src={myImage} width={400} height={500} alt="Nazmun Sakib" />
                     </div>
                     <div className="info-area w-2/3 pl-16">
                         <div className="section-title mb-6">
