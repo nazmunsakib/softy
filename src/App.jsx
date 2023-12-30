@@ -7,7 +7,8 @@ import Footer from './components/Footer'
 import MySkills from './components/MySkills'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
-import SocialLinks from './components/SocialLinks'
+import Contact from './components/Contact'
+import 'animate.css'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <MySkills></MySkills>
       <Experience></Experience> 
       <Projects></Projects>
-      <SocialLinks></SocialLinks>
+      <Contact></Contact>
       <Footer></Footer>
     </div>
   )

@@ -3,7 +3,7 @@ import project1 from '../assets/images/projects-1.png';
 
 const Projects = () => {
     return (
-        <section className="featured-projects py-14">
+        <section id="projects" className="featured-projects py-14">
             <div className="container">
                 <div className="max-w-3xl m-auto">
                     <div className="section-title mb-6">
@@ -15,16 +15,18 @@ const Projects = () => {
                                 <div className="w-1/2">
                                     <img src={project1} alt="" />
                                 </div>
-                                <div className="w-1/2 pl-7">
-                                    <ul className="flex flex-wrap flex-row justify-end text-[12px] gap-2">
-                                        <li className="">Git</li>
-                                        <li className="">WP</li>
-                                    </ul>
-                                    <h3 className="text-lg font-m">
-                                        <a className="text-primary" href="">Web Application Developer</a>
-                                    </h3>
-                                    <p className="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, iusto!</p>
-                                    <a href="" className="">See Projects</a>
+                                <div className="w-1/2 pl-7 flex flex-col justify-between">
+                                    <div>
+                                        <ul className="flex flex-wrap flex-row justify-end text-[12px] gap-2">
+                                            <li className="">Git</li>
+                                            <li className="">WP</li>
+                                        </ul>
+                                        <h3 className="text-lg font-m">
+                                            <a className="text-primary" href="">Web Application Developer</a>
+                                        </h3>
+                                        <p className="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, iusto!</p>
+                                        <a href="" className=" text-secondary inline-block mt-4 capitalize">View Project</a>
+                                    </div>
                                     <ul className="flex flex-wrap flex-row text-[12px] gap-2">
                                         <li className="shadow-softy2 px-2 py-1">PHP</li>
                                         <li className="shadow-softy2 px-2 py-1">Javascript</li>
@@ -35,17 +37,18 @@ const Projects = () => {
                         </div>
                         <div className="p-5 bg-softySolid shadow-softy2 rounded-sm duration-100  mb-9">
                             <div className="flex flex-row flex-wrap text-[15px]">
-                                <div className="w-1/2 pr-7">
-                                    <ul className="flex flex-wrap flex-row justify-end text-[12px] gap-2">
-                                        <li className="">Git</li>
-                                        <li className="">WP</li>
-                                    </ul>
-                                    <h3 className="text-lg font-m">
-                                        <a className="text-primary" href="">Web Application Developer</a>
-                                    </h3>
-                                    <p className="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, iusto!</p>
-
-                                    <a href="" className="">See Projects</a>
+                                <div className="w-1/2 pr-7 flex flex-col justify-between">
+                                    <div>
+                                        <ul className="flex flex-wrap flex-row justify-end text-[12px] gap-2">
+                                            <li className="">Git</li>
+                                            <li className="">WP</li>
+                                        </ul>
+                                        <h3 className="text-lg font-m">
+                                            <a className="text-primary" href="">Web Application Developer</a>
+                                        </h3>
+                                        <p className="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, iusto!</p>
+                                        <a href="" className=" text-secondary inline-block mt-4 capitalize">View Project</a>
+                                    </div>
                                     <ul className="flex flex-wrap flex-row text-[12px] gap-2">
                                         <li className="shadow-softy2 px-2 py-1">PHP</li>
                                         <li className="shadow-softy2 px-2 py-1">Javascript</li>
@@ -62,16 +65,20 @@ const Projects = () => {
                                 <div className="w-1/2">
                                     <img src={project1} alt="" />
                                 </div>
-                                <div className="w-1/2 pl-7">
-                                    <ul className="flex flex-wrap flex-row justify-end text-[12px] gap-2">
-                                        <li className="">Git</li>
-                                        <li className="">WP</li>
-                                    </ul>
-                                    <h3 className="text-lg font-m">
-                                        <a className="text-primary" href="">Web Application Developer</a>
-                                    </h3>
-                                    <p className="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, iusto!</p>
-                                    <a href="" className="">See Projects</a>
+                                <div className="w-1/2 pl-7 flex flex-col justify-between">
+                                    <div>
+                                        <ul className="flex flex-wrap flex-row justify-end text-[12px] gap-2">
+                                            <li className="">Git</li>
+                                            <li className="">WP</li>
+                                        </ul>
+                                        <h3 className="text-lg font-m">
+                                            <a className="text-primary" href="">
+                                                Web Application Developer 
+                                            </a>
+                                        </h3>
+                                        <p className="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, iusto!</p>
+                                        <a href="" className=" text-secondary inline-block mt-4 capitalize">View Project</a>
+                                    </div>
                                     <ul className="flex flex-wrap flex-row text-[12px] gap-2">
                                         <li className="shadow-softy2 px-2 py-1">PHP</li>
                                         <li className="shadow-softy2 px-2 py-1">Javascript</li>

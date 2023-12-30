@@ -20,3 +20,7 @@
   50% {color: #B0C8DB}
   100% {color: transparent}
 }
+
+a {
+  @apply underline hover:text-primary duration-150
+}

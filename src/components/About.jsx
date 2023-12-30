@@ -3,7 +3,7 @@ import myImage from'../assets/images/my-new.jpg';
 
 const About = () => {
     return (
-        <section className="about-me py-14">
+        <section id="about-me" className="about-me py-14">
             <div className="container">
                 <div className="about-content flex">
                     <div className="about-image-area w-1/3">
