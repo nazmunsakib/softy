@@ -2,12 +2,12 @@ import React from 'react';
 
 const Experience = () => {
     return (
-        <section id="experience" className="work-history-section py-14">
+        <section id="experience" className="work-history-section py-8 md:py-14">
             <div className="container">
                 <div className="section-title mb-6">
                     <h2 className="font-bold font-poppins text-2xl text-secondary">#Where I’ve Worked</h2>
                 </div>
-                <div className="grid grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="px-4 bg-softy shadow-softy2 p-7 rounded-sm hover:!bg-softySolid duration-100">
                         <div className="flex flex-row flex-wrap text-[15px]">
                             <div className="w-1/3">

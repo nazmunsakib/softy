@@ -17,6 +17,9 @@ export default {
       backgroundImage: {
         'softy': 'linear-gradient(193deg, #313960 0%, #11152b 100%)',
         'softy2':'linear-gradient(180deg, #313960 0%, #11152b 100%)',
+      },
+      grayscale: {
+        70: '70%',
       }
     },
     colors: {
@@ -28,10 +31,10 @@ export default {
       center: true,
       padding: '1rem',
       screens: {
-        sm: '600px',
-        md: '728px',
+        sm: '640px',
+        md: '768px',
         lg: '960px',
-        xl: '984px',
+        xl: '1024px',
         '2xl': '1496px',
       },
     },
