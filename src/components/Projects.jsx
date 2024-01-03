@@ -6,7 +6,7 @@ import linkIcon from '../assets/icons/link.svg';
 
 const Projects = () => {
     return (
-        <section id="projects" className="featured-projects py-8 md:py-14">
+        <section id="projects" className="featured-projects py-8 md:py-16">
             <div className="container">
                 <div className="max-w-3xl m-auto">
                     <div className="section-title mb-6">
@@ -22,17 +22,17 @@ const Projects = () => {
                                     <div>
                                         <ul className="flex flex-wrap flex-row justify-end text-[12px] gap-2 mt-5 md:mt-0">
                                             <li className="">
-                                                <a href=""><img src={WordPress} width={16} height={16} alt="WordPress" /></a>
+                                                <a href=""><img src={WordPress} className="opacity-50 hover:opacity-100 duration-200" width={16} height={16} alt="WordPress" /></a>
                                             </li>
                                             <li className="">
-                                                <a href=""><img src={git} width={16} height={16} alt="Git" /></a>
+                                                <a href=""><img src={git} className="opacity-50 hover:opacity-100 duration-200" width={16} height={16} alt="Git" /></a>
                                             </li>
                                         </ul>
                                         <h3 className="text-lg font-medium">
                                             <a className="text-primary" href="">Web Application Developer</a>
                                         </h3>
                                         <p className="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, iusto!</p>
-                                        <a href="" className=" text-secondary flex gap-2 mt-4 capitalize">View Project <img src={linkIcon} className="" width={14} height={14} alt="Git" /></a>
+                                        <a href="" className=" text-secondary flex gap-2 mt-4 capitalize">View Project <img src={linkIcon} className="opacity-50 hover:opacity-100 duration-200" width={14} height={14} alt="Git" /></a>
                                     </div>
                                     <ul className="flex flex-wrap flex-row text-[12px] gap-2 mt-5">
                                         <li className="shadow-softy2 px-2 py-1">PHP</li>
@@ -48,17 +48,17 @@ const Projects = () => {
                                     <div>
                                         <ul className="flex flex-wrap flex-row justify-end text-[12px] gap-2 mt-5 md:mt-0">
                                             <li className="">
-                                                <a href=""><img src={WordPress} width={16} height={16} alt="WordPress" /></a>
+                                                <a href=""><img src={WordPress} className="opacity-50 hover:opacity-100 duration-200" width={16} height={16} alt="WordPress" /></a>
                                             </li>
                                             <li className="">
-                                                <a href=""><img src={git} width={16} height={16} alt="Git" /></a>
+                                                <a href=""><img src={git} className="opacity-50 hover:opacity-100 duration-200" width={16} height={16} alt="Git" /></a>
                                             </li>
                                         </ul>
                                         <h3 className="text-lg font-medium">
                                             <a className="text-primary" href="">Web Application Developer</a>
                                         </h3>
                                         <p className="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, iusto!</p>
-                                        <a href="" className="flex gap-2 text-secondary mt-4 capitalize">View Project <img src={linkIcon} className="" width={14} height={14} alt="Git" /></a>
+                                        <a href="" className="flex gap-2 text-secondary mt-4 capitalize">View Project <img src={linkIcon} className="opacity-50 hover:opacity-100 duration-200" width={14} height={14} alt="Git" /></a>
                                     </div>
                                     <ul className="flex flex-wrap flex-row text-[12px] gap-2 mt-5">
                                         <li className="shadow-softy2 px-2 py-1">PHP</li>
@@ -80,10 +80,10 @@ const Projects = () => {
                                     <div>
                                         <ul className="flex flex-wrap flex-row justify-end text-[12px] gap-2 mt-5 md:mt-0">
                                             <li className="">
-                                                <a href=""><img src={WordPress} width={16} height={16} alt="WordPress" /></a>
+                                                <a href=""><img src={WordPress} className="opacity-50 hover:opacity-100 duration-200" width={16} height={16} alt="WordPress" /></a>
                                             </li>
                                             <li className="">
-                                                <a href=""><img src={git} width={16} height={16} alt="Git" /></a>
+                                                <a href=""><img src={git} className="opacity-50 hover:opacity-100 duration-200" width={16} height={16} alt="Git" /></a>
                                             </li>
                                         </ul>
                                         <h3 className="text-lg font-medium">
@@ -92,7 +92,7 @@ const Projects = () => {
                                             </a>
                                         </h3>
                                         <p className="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, iusto!</p>
-                                        <a href="" className="flex gap-2 text-secondary mt-4 capitalize">View Project <img src={linkIcon} className="" width={14} height={14} alt="Git" /></a>
+                                        <a href="" className="flex gap-2 text-secondary mt-4 capitalize">View Project <img src={linkIcon} className="opacity-50 hover:opacity-100 duration-200" width={14} height={14} alt="Git" /></a>
                                     </div>
                                     <ul className="flex flex-wrap flex-row text-[12px] gap-2 mt-5">
                                         <li className="shadow-softy2 px-2 py-1">PHP</li>
