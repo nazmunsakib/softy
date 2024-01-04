@@ -20,19 +20,19 @@ const Contact = () => {
                         <div className="w-full md:w-1/3">
                             <ul>
                                 <li className="mb-2">
-                                    <a href="" className="flex flex-wrap flex-row gap-2">
+                                    <a href="https://www.linkedin.com/in/nazmunsakib/" className="flex flex-wrap flex-row gap-2" target="_blank" rel="noopener noreferrer">
                                         <img src={Linkedin} width={20} height={20} alt="Linkedin" />
                                         <span className="social-handel">@nazmunsakib</span>
                                     </a>
                                 </li>
                                 <li className="mb-2">
-                                    <a href="" className="flex flex-wrap flex-row gap-2">
+                                    <a href="https://github.com/nazmunsakib" className="flex flex-wrap flex-row gap-2" target="_blank" rel="noopener noreferrer">
                                         <img src={Github} width={20} height={20} alt="Github" />
                                         <span className="social-handel">@nazmunsakib</span>
                                     </a>
                                 </li>
                                 <li className="mb-2">
-                                    <a href="" className="flex flex-wrap flex-row gap-2">
+                                    <a href="https://profiles.wordpress.org/nazmunsakib/" className="flex flex-wrap flex-row gap-2" target="_blank" rel="noopener noreferrer">
                                         <img src={WordPress} width={20} height={20} alt="WordPress" />
                                         <span className="social-handel">@nazmunsakib</span>
                                     </a>
@@ -42,19 +42,19 @@ const Contact = () => {
                         <div className="w-full md:w-1/3">
                             <ul>
                                 <li className="mb-2">
-                                    <a href="" className="flex flex-wrap flex-row gap-2">
+                                    <a href="https://www.instagram.com/webdev_sakib/" className="flex flex-wrap flex-row gap-2" target="_blank" rel="noopener noreferrer">
                                         <img src={Instagram} width={20} height={20} alt="Instagram" />
                                         <span className="social-handel">@webdev_sakib</span>
                                     </a>
                                 </li>
                                 <li  className="mb-2">
-                                    <a href="" className="flex flex-wrap flex-row gap-2">
+                                    <a href="https://twitter.com/nazmunsakib81" className="flex flex-wrap flex-row gap-2" target="_blank" rel="noopener noreferrer">
                                         <img src={Twitter} width={20} height={20} alt="Twitter" />
                                         <span className="social-handel ">@nazmunsakib81</span>
                                     </a>
                                 </li>
                                 <li className="mb-2">
-                                    <a href="" className="flex flex-wrap flex-row gap-2">
+                                    <a href="https://www.facebook.com/nazmunsakib.me/" className="flex flex-wrap flex-row gap-2" target="_blank" rel="noopener noreferrer">
                                         <img src={Facebook} width={16} height={16} alt="Facebook" />
                                         <span className="social-handel inline-block ml-2">@nazmunsakib.me</span>
                                     </a>
@@ -66,7 +66,7 @@ const Contact = () => {
                             <ul>
                                 <li className="flex flex-wrap flex-row gap-2">
                                     <img src={Envelope} width={20} height={20} alt="Envelope" />
-                                    <a className="" target="_blank" rel="noreferrer"  href="mailto:nazmunsakib81@gmail.com">nazmunsakib81@gmail.com</a>
+                                    <a className="" href="mailto:nazmunsakib81@gmail.com">nazmunsakib81@gmail.com</a>
                                 </li>
                                 <li className="flex flex-wrap flex-row gap-2 mt-1">
                                     <img src={WhatsApp} width={20} height={20} alt="WhatsApp" />
