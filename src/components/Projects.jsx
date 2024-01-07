@@ -42,7 +42,7 @@ const Projects = () => {
                                         </ul>
                                         <h3 className="text-lg leading-6 font-medium">
                                             <a className="text-primary hover:text-secondary duration-500" href={docyUrl} target="_blank" rel="noopener noreferrer">
-                                                Docy - Documentation, Knowledge base & LMS WordPress Theme with Forum.
+                                                Docy - Documentation, Knowledge base & LMS WordPress Theme with Forum
                                             </a>
                                         </h3>
                                         <p className="mt-5">Docy is the perfect WordPress theme for creating comprehensive documentation, knowledge base, and LMS websites.</p>
@@ -87,7 +87,7 @@ const Projects = () => {
                                 </div>
                                 <div className="w-full md:w-1/2">
                                     <a href={smStudio} target="_blank" rel="noopener noreferrer">
-                                        <img src={musicStudio} className="w-full opacity-80 hover:opacity-100 duration-500 rounded-sm" alt="Docy theme" />
+                                        <img src={musicStudio} className="w-full opacity-80 hover:opacity-100 duration-500 rounded-sm mb-3" alt="Docy theme" />
                                     </a>
                                 </div>
                             </div>
