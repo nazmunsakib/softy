@@ -18,5 +18,9 @@
 }
 
 a {
-  @apply underline hover:text-primary duration-150
+  @apply underline hover:text-primary duration-150 cursor-pointer
+}
+
+.active{
+  @apply text-primary
 }

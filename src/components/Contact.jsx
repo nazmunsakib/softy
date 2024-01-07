@@ -10,7 +10,7 @@ import Envelope from '../assets/icons/envelope.svg';
 
 const Contact = () => {
     return (
-        <section className="social-links pt-8 md:pt-14 pb-14 md:pb-28" id="contact-me">
+        <section id="contact-me" className="social-links pt-12 md:pt-52 pb-16 md:pb-36">
             <div className="container">
                 <div className="">
                     <div className="section-title mb-6">

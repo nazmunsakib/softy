@@ -23,6 +23,7 @@ export default {
       }
     },
     colors: {
+      white: '#ffffff',
       primary: '#04e8b9',
       secondary: '#73d9ff',
       softySolid: 'rgba(30,41,59,.5)',
