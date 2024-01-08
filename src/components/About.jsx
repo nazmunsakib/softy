@@ -13,7 +13,7 @@ const About = () => {
                         <div className="section-title mb-6">
                             <h2 className="font-bold font-poppins text-2xl text-secondary">#About Me</h2>
                         </div>
-                        <p className="font-poppins leading-8">Hello! My name is Sakib I'm a passionate Web Application Developer.  I develop web applications, WordPress themes and plugins. My core skill is based on custom WordPress Development and JavaScript, I love to do most of the things using WordPress and JavaScript. and I enjoy creating things that live on the internet. I am available for any kind of job opportunity that suits my interests!</p>
+                        <p className="font-poppins leading-8">Hello! My name is Sakib I'm a passionate Full Stack WordPress Developer. I develop web applications, WordPress themes and plugins. My core skill is based on custom WordPress Development and JavaScript, I love to do most of the things using WordPress and JavaScript. and I enjoy creating things that live on the internet. I am available for any kind of job opportunity that suits my interests!</p>
                         <a href="https://nazmunsakib.com/sakib-resume.pdf" className="bg-primary text-sm font-semibold px-5 py-2 mt-7 rounded hover:bg-softySolid shadow-softy2 inline-block text-softySolid uppercase" target="_blank" rel="noopener noreferrer">Get Resume</a>
                     </div>
                 </div>

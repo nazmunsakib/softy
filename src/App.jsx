@@ -12,7 +12,7 @@ import 'animate.css'
 
 function App() {
   return (
-    <div className="">
+    <div>
       <Header></Header>
       <Hero></Hero>
       <About></About>
