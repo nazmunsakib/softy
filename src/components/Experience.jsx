@@ -8,7 +8,7 @@ const Experience = () => {
                     <h2 className="font-bold font-poppins text-2xl text-secondary">#Where I’ve Worked</h2>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div className="px-4 bg-softy shadow-softy2 p-7 rounded-sm hover:!bg-softySolid duration-100">
+                    <div className="px-4 bg-softy shadow-softy2 p-7 rounded-sm hover:!bg-softySolid duration-100" data-aos="fade-up">
                         <div className="flex md:flex-row flex-wrap text-[15px]">
                             <div className="w-full md:w-1/3 mb-2">
                                 <header className="text-[13px] font-semibold">2022 — PRESENT</header>
@@ -20,7 +20,7 @@ const Experience = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="px-4 bg-softy shadow-softy2 p-7 rounded-sm hover:!bg-softySolid duration-100">
+                    <div className="px-4 bg-softy shadow-softy2 p-7 rounded-sm hover:!bg-softySolid duration-100" data-aos="fade-up" data-aos-delay="200">
                         <div className="flex flex-row flex-wrap text-[15px]">
                             <div className="w-full md:w-1/3 mb-2">
                                 <header className="text-[13px] font-semibold">2021 — Jun, 2022</header>
@@ -32,7 +32,7 @@ const Experience = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="px-4 bg-softy shadow-softy2 p-7 rounded-sm hover:!bg-softySolid duration-100">
+                    <div className="px-4 bg-softy shadow-softy2 p-7 rounded-sm hover:!bg-softySolid duration-100" data-aos="fade-up">
                         <div className="flex flex-row flex-wrap text-[15px]">
                             <div className="w-full md:w-1/3 mb-2">
                                 <header className="text-[13px] font-semibold">2020 — Jan, 2021</header>
@@ -44,7 +44,7 @@ const Experience = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="px-4 bg-softy shadow-softy2 p-7 rounded-sm hover:!bg-softySolid duration-100">
+                    <div className="px-4 bg-softy shadow-softy2 p-7 rounded-sm hover:!bg-softySolid duration-100" data-aos="fade-up" data-aos-delay="200">
                         <div className="flex flex-row flex-wrap text-[15px]">
                             <div className="w-full md:w-1/3 mb-2">
                                 <header className="text-[13px] font-semibold">2017 — 2019</header>

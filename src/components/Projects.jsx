@@ -16,11 +16,11 @@ const Projects = () => {
         <section id="projects" className="featured-projects pt-8 md:pt-20">
             <div className="container">
                 <div className="max-w-3xl m-auto">
-                    <div className="section-title mb-6">
+                    <div className="section-title mb-6" data-aos="fade-up">
                         <h2 className="font-bold font-poppins text-2xl text-secondary">#Featured Projects</h2>
                     </div>
                     <div className="">
-                        <div className="p-5 bg-softySolid shadow-softy2 rounded-sm duration-100 mb-9">
+                        <div className="p-5 bg-softySolid shadow-softy2 rounded-sm duration-100 mb-9" data-aos="fade-up">
                             <div className="flex flex-row flex-wrap text-[15px]">
                                 <div className="w-full md:w-1/2">
                                     <a href={docyUrl} target="_blank" rel="noopener noreferrer">
@@ -58,7 +58,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="p-5 bg-softySolid shadow-softy2 rounded-sm duration-100  mb-9">
+                        <div className="p-5 bg-softySolid shadow-softy2 rounded-sm duration-100  mb-9" data-aos="fade-up">
                             <div className="flex flex-col-reverse md:flex-row text-[15px]">
                                 <div className="w-full md:w-1/2 md:pr-7 flex flex-col justify-between">
                                     <div>
@@ -92,7 +92,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="p-5 bg-softySolid shadow-softy2 rounded-sm duration-100 mb-9">
+                        <div className="p-5 bg-softySolid shadow-softy2 rounded-sm duration-100 mb-9" data-aos="fade-up">
                             <div className="flex flex-row flex-wrap text-[15px]">
                                 <div className="w-full md:w-1/2">
                                     <a href={dpcd} target="_blank" rel="noopener noreferrer">

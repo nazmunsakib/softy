@@ -4,11 +4,11 @@ const MySkills = () => {
     return (
         <section id="my-skills" className="skill-section py-8 md:py-20">
             <div className="container">
-                <div className="section-title mb-6">
+                <div className="section-title mb-6" data-aos="fade-up">
                     <h2 className="font-bold font-poppins text-2xl text-secondary">#My Skills</h2>
                 </div>
                 <div className="md:flex md:flex-wrap md:flex-row md:-mx-4">
-                    <div className="w-full md:w-1/3 md:px-4 mb-6">
+                    <div className="w-full md:w-1/3 md:px-4 mb-6" data-aos="fade-up">
                         <div className="skill-card bg-softy p-7 shadow-softy2 rounded-sm">
                             <pre>
                                 <code>
@@ -30,7 +30,7 @@ const MySkills = () => {
                         </div>
                     </div>
 
-                    <div className="w-full md:w-1/3 md:px-4 mb-6">
+                    <div className="w-full md:w-1/3 md:px-4 mb-6" data-aos="fade-up" data-aos-delay="200">
                         <div className="skill-card bg-softy p-7 shadow-softy2 rounded-sm">
                             <pre>
                                 <code>
@@ -55,7 +55,7 @@ const MySkills = () => {
                         </div>
                     </div>
 
-                    <div className="w-full md:w-1/3 md:px-4">
+                    <div className="w-full md:w-1/3 md:px-4" data-aos="fade-up" data-aos-delay="300">
                         <div className="skill-card bg-softy p-7 shadow-softy2 rounded-sm">
                             <pre>
                                 <code>

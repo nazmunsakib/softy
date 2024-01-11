@@ -13,11 +13,11 @@ const Contact = () => {
         <section id="contact-me" className="social-links pt-12 md:pt-52 pb-16 md:pb-36">
             <div className="container">
                 <div className="">
-                    <div className="section-title mb-6">
+                    <div className="section-title mb-6" data-aos="fade-up">
                         <h2 className="font-bold font-poppins text-2xl text-secondary">#Say Hi...</h2>
                     </div>
                     <div className="md:flex md:flex-wrap md:flex-row text-lg font-medium">
-                        <div className="w-full md:w-1/3">
+                        <div className="w-full md:w-1/3" data-aos="fade-up">
                             <ul>
                                 <li className="mb-2">
                                     <a href="https://www.linkedin.com/in/nazmunsakib/" className="flex flex-wrap flex-row gap-2" target="_blank" rel="noopener noreferrer">
@@ -39,7 +39,7 @@ const Contact = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="w-full md:w-1/3">
+                        <div className="w-full md:w-1/3" data-aos="fade-up" data-aos-delay="200">
                             <ul>
                                 <li className="mb-2">
                                     <a href="https://www.instagram.com/webdev_sakib/" className="flex flex-wrap flex-row gap-2" target="_blank" rel="noopener noreferrer">
@@ -61,7 +61,7 @@ const Contact = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="w-full md:w-1/3">
+                        <div className="w-full md:w-1/3" data-aos="fade-up" data-aos-delay="300">
                             <h3 className="mt-6 md:mt-0 text-2xl text-primary font-semibold mb-3">Start a project?</h3>
                             <ul>
                                 <li className="flex flex-wrap flex-row gap-2">

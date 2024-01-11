@@ -1,9 +1,10 @@
 import React from 'react';
 import myImage from'../assets/images/my-new.jpg';
+import AOS from 'aos';
 
 const About = () => {
     return (
-        <section id="about-me" className="about-me py-8 md:py-20">
+        <section id="about-me" className="about-me py-8 md:py-20" data-aos="fade-up" data-aos-delay="200">
             <div className="container">
                 <div className="about-content flex flex-col-reverse md:flex-row">
                     <div className="about-image-area w-full md:w-1/3">
