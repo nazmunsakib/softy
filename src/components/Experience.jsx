@@ -4,7 +4,7 @@ const Experience = () => {
     return (
         <section id="experience" className="work-history-section py-8 md:py-16">
             <div className="container">
-                <div className="section-title mb-6">
+                <div className="section-title mb-6" data-aos="fade-up">
                     <h2 className="font-bold font-poppins text-2xl text-secondary">#Where I’ve Worked</h2>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

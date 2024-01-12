@@ -9,7 +9,7 @@ const Header = () => {
                 <div className="logo-area w-1/4">
                     <a href="/" className=" text-primary text-2xl font-bold uppercas">SAKIB</a>
                 </div>
-                <div className="nav-area w-3/4 text-right">
+                <div className="nav-area w-3/4 text-right" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0">
                     <nav>
                         <ul className="main-menu hidden md:flex md:flex-wrap md:justify-end md:gap-8 text-[13px] font-semibold text-white font-dmsans uppercase items-center">
                             <li>
