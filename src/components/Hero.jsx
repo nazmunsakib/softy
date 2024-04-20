@@ -1,13 +1,13 @@
 import React from 'react';
-import HeroBg from '../assets/images/hero-bg.avif';
+import HeroBg from '../assets/images/hero-bg-grid.svg';
 import { Link } from 'react-scroll';
 
 const Hero = () => {
     return (
         <section id="home" className="hero-aria min-h-[500px] md:min-h-screen flex flex-col justify-center pt-14 relative">
             <div className="absolute z-20 top-0 inset-x-0 flex justify-center overflow-hidden pointer-events-none">
-                <div className="w-[108rem] flex-none flex justify-end">
-                    <img src={HeroBg} alt="Hero background" className="w-[90rem]" decoding="async" />
+                <div className="">
+                    <img src={HeroBg} alt="Hero background" width="1572" height="795" decoding="async" />
                 </div>
             </div>
            <div className="container">
